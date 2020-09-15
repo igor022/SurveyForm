@@ -1,0 +1,86 @@
+body {
+    font: 300 18px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #f2f2f2;
+    background-color: #57588f;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+form {
+    background-color: #282948;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+form label {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+fieldset select,
+fieldset textarea {
+    display: block;
+}
+
+fieldset .block-input {
+    display: block;
+}
+
+.separate-input {
+    margin-bottom: 20px;
+    padding: 0px 2%;
+    height: 30px;
+    border-style: none;
+    border-radius: 3px;
+    width: 96%;
+}
+
+
+textarea {
+    font: 300 18px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    width: 100%;
+    height: 75px;
+}
+
+fieldset {
+    border-style: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+select {
+    font-size: inherit;
+    background-color: white;
+}
+
+button {
+    margin:0;
+    padding: 0;
+    font-size: 1em;
+    width: 100%;
+    height: 45px;
+    border: 0px;
+    border-radius: 2px;
+    color: #f2f2f2;
+    background-color: #37AF65;
+}
+
+.add-hint {
+    font-size: 0.8em;
+}
