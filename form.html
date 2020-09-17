@@ -4,24 +4,26 @@
         <meta charset="utf-8">
         <title>Survey</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Igor's Survey Form</h1>
-        <h3><i>Thank you for taking the time to help us improve the platform</i></h3>
+        <h3 class="thankyou"><i>Thank you for taking the time to help us improve the platform</i></h3>
 
         <form action="#" methof="post">
             <fieldset>
                 <div>
                     <label for="name">Name</label>
-                    <input class="separate-input" type="text" name="name" required placeholder=" Enter your name">    
+                    <input class="separate-input" type="text" name="name" required placeholder="Enter your name">    
                 </div>
                 <label for="email">Email</label>
-                <input class="separate-input" type="email" name="email" required placeholder=" Enter your Email">
+                <input class="separate-input" type="email" name="email" required placeholder="Enter your Email">
                 <label for="age">Age <span class="add-hint">(optional)</span></label>
-                <input class="separate-input" type="number" name="age" placeholder=" Age">    
+                <input class="separate-input" type="number" name="age" placeholder="Age">    
                 
                 <lable for="role">Which option best describes your current role?</lable>
-                <select class="separate-input" name="role" required>
+                <select name="role" required>
                     <option value="Select current role" selected disabled>Select current role</option>
                     <option value="Student">Student</option>
                     <option value="Full Time Job">Full Time Job</option>
@@ -44,7 +46,7 @@
             
             <fieldset>
                 <label for="feature">What is your favourite feature on freeCodeCamp?</label>
-                <select class="separate-input" name="feature" required>
+                <select name="feature" required>
                     <option value="Select an option" selected disabled>Select an option</option>
                     <option value="Challenges">Challenges</option>
                     <option value="Projects">Projects</option>
